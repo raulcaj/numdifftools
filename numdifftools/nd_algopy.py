@@ -115,6 +115,7 @@ class _Derivative(object):
 
     @property
     def fun(self):
+        o = x.test()
         return self._fun
 
     @fun.setter
